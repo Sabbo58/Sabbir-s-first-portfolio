@@ -1,10 +1,11 @@
 body {
-    font-family: 'Lobster', cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
 }
 
 h1 {
     font-size: 40px;
+    color: rgb(236, 87, 33);
 }
 
 span {
@@ -24,6 +25,7 @@ img {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .Demo {
@@ -51,4 +53,17 @@ a:hover {
 .s1 {
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+}
+
+.s2 {
+    display: flex;
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.demo1 {
+    width: 50%;
+    padding-left: 100px;
+    padding-right: 50px;git
 }
